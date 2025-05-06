@@ -7,7 +7,8 @@ inventario = {
        "Pitaya" : 45,
        "zapote" : 30,
        "Fresas" : 60,
-       "arandanos" : 25}
+       "arandanos" : 25,
+       "Banano" : 27 }
 
 
 def gestionar_inventario(inventario):
