@@ -1,3 +1,6 @@
+from actualizar import actualizar_producto
+from mostrar import mostrar_inventario
+
 inventario = {
        "Pera" : 20,
        "Ciruela" : 50,
@@ -5,3 +8,11 @@ inventario = {
        "zapote" : 30,
        "Fresas" : 60,
        "arandanos" : 25}
+
+
+def gestionar_inventario(inventario):
+
+# Uso de la función
+       inventario_actualizado = gestionar_inventario(inventario)
+       print("\nInventario final:", inventario_actualizado)
+       
